@@ -1,2 +1,9 @@
-# Analisis-de-componentes-principales
-Analisis de componentes principales, a partir del cursode posgrado "Analisis multivariado exploratorio"
+
+# Aplicaciones en R, a partir del curso de posgrado "Analisis multivariado exploratorio" (UNS)
+
+ *Analisis de componentes principales*
+ 
+ 
+ 
+
+
