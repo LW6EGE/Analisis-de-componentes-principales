@@ -22,9 +22,10 @@ ggdendrogram (cluster_euclid, rotate = T) + scale_y_reverse()
 
 # generando cluster no jerarquico (k-means)
 
-cluster_k_means = kmeans(d_euclidea ,3 ) #utilizando la matriz de dist euclidea
+cluster_k_means = kmeans(d_euclidea ,3 ) #utilizando la matriz de dist euclidea con 3 centroides
 
 cluster_k_means$cluster # separacion por cluster 
+cluster_k_means$centers #centroides 
 library(factoextra)
 
 fviz_cluster(cluster_k_means, data = VADeaths) #grafica de cluster 
