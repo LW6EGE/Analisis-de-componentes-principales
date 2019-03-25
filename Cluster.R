@@ -1,3 +1,5 @@
+#cluster para la base  VADeaths
+
 data ("VADeaths")
 library (cluster)
 
