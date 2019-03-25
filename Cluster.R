@@ -8,6 +8,7 @@ d_euclidea
 #generacion del cluster (jerarquico)
 
 cluster_euclid = hclust (d_euclidea , method = "complete") # en este caso mediante  es mediante ligamiento completo 
+cor (cophenetic(cluster_euclid), d_euclidea) #coeficiente de correlaicon cofenetica 
 
 # dendograma (sin bilbioteca ggplot2)
 
