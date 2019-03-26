@@ -19,7 +19,8 @@ g_ACP = as.data.frame ( ACP$x)
 
 ACP$sdev ^2 # autovalores  
 
-cor_ACP= as.data.frame ( ACP$rotation %*% (diag (ACP$sdev))  )#correlacion entre variables y componentes. 
+cor_ACP= as.data.frame ( ACP$rotation %*% (diag (ACP$sdev))  )#correlacion entre variables y componentes. (utilizando matriz de correlacion)
+ #si estaria utilizando covarianzas cor_acp= diag(1/sqrt(diag(cov(iris)))) %*% ACP$rotation %*% diag(ACP$sdev)
 
 
 
